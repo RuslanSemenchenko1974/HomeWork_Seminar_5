@@ -39,7 +39,7 @@ try
 {
 int sizeArr=Math.Abs(Convert.ToInt32(Console.ReadLine()));
 
-double[] arr=GetArray(sizeArr,-1000,1001);
+double[] arr=GetArray(sizeArr,-1000,1000);
 Console.WriteLine();
 Console.WriteLine($"Разница между максимальным и минимальным элементом: {DifferenceMaxMin(arr)}");
 
